@@ -24,7 +24,7 @@ Time::Period - modu³ perla do operowania na okresach czasowych.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
