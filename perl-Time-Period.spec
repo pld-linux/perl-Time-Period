@@ -3,11 +3,11 @@ Summary:	Time::Period perl module
 Summary(pl):	Modu³ perla Time::Period
 Name:		perl-Time-Period
 Version:	1.20
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Time/Period-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -22,7 +22,8 @@ Time::Period - modu³ perla do operowania na okresach czasowych.
 %setup -q -n Period-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -36,5 +37,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_sitelib}/Time/Period.pm
+%{perl_vendorlib}/Time/Period.pm
 %{_mandir}/man3/*
