@@ -7,6 +7,7 @@ Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Time/Period-%{version}.tar.gz
+# Source0-md5:	63b073af8ec96e7fa48801cd6fcccdd1
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildArch:	noarch
