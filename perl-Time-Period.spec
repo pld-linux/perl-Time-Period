@@ -3,7 +3,7 @@ Summary:	Time-Period perl module
 Summary(pl):	Modu³ perla Time-Period
 Name:		perl-Time-Period
 Version:	1.20
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
