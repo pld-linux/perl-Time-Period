@@ -22,7 +22,7 @@ Time::Period - modu³ perla do operowania na okresach czasowych.
 %setup -q -n Period-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
