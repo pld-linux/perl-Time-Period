@@ -25,7 +25,7 @@ Time-Period - modu³ perla do operowania na okresach czasowych.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
