@@ -4,7 +4,8 @@ Summary(pl):	Modu³ perla Time::Period
 Name:		perl-Time-Period
 Version:	1.20
 Release:	8
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Time/Period-%{version}.tar.gz
 # Source0-md5:	63b073af8ec96e7fa48801cd6fcccdd1
@@ -30,7 +31,8 @@ Time::Period - modu³ perla do operowania na okresach czasowych.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
