@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Time::Period perl module
-Summary(pl):	Modu≥ perla Time::Period
+Summary(pl.UTF-8):   Modu≈Ç perla Time::Period
 Name:		perl-Time-Period
 Version:	1.20
 Release:	9
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Time::Period - A Perl module to deal with time periods.
 
-%description -l pl
-Time::Period - modu≥ perla do operowania na okresach czasowych.
+%description -l pl.UTF-8
+Time::Period - modu≈Ç perla do operowania na okresach czasowych.
 
 %prep
 %setup -q -n Period-%{version}
