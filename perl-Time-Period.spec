@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Time::Period perl module
-Summary(pl.UTF-8):   Moduł perla Time::Period
+Summary(pl.UTF-8):	Moduł perla Time::Period
 Name:		perl-Time-Period
 Version:	1.20
 Release:	9
