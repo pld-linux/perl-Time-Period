@@ -1,3 +1,5 @@
+%define		pdir	Time
+%define		pnam	Period
 %include	/usr/lib/rpm/macros.perl
 Summary:	Time::Period perl module
 Summary(pl.UTF-8):	Moduł perla Time::Period
@@ -9,8 +11,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Time/Period-%{version}.tar.gz
 # Source0-md5:	63b073af8ec96e7fa48801cd6fcccdd1
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Time-Period/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
